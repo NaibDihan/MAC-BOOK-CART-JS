@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container my-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col col-lg-6">
+                <img src="images/mac.png" width="500" height="500" alt="">
+            </div>
+            <div class="col col-lg-6">
+                <h2>Customize your blue 24-inch iMac with Apple M1 chip</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit aperiam inventore ullam temporibus voluptatibus delectus voluptatum, officia aspernatur quod cum minus vitae, qui vel doloribus debitis sapiente odit vero quisquam eius necessitatibus amet ipsa. Quidem blanditiis nam modi magni odio eius earum voluptatum, accusamus eaque ipsum quo necessitatibus labore. Sed.</p>
+                <div class="my-5">
+                    <h5>Memory</h5>
+                    <button class="rounded" onclick="memory8()">8GB unified memory</button>
+                    <button class="rounded" onclick="memory16()">16GB unified memory</button>
+                </div>
+                
+
+                <div class="my-5">
+                    <h5>Storage</h5>
+                    <button class="rounded" onclick="storage256GB()">256GB SSD storage</button>
+                    <button class="rounded" onclick="storage512GB()">512GB SSD storage</button>
+                    <button class="rounded" onclick="storage1TB()">1TB SSD storage</button>
+                </div>
+
+
+               <div>
+                    <h5>Choose Your Delivery Option</h5>
+                    <button class="rounded" onclick="deliveryFree()">Friday,Aug 25 Free Prime Delivery</button>
+                    <button class="rounded" onclick="deliveryCharge()">Friday,Aug 21 Delivery charge $20</button>
+               </div>
+
+               <table style="width:50%;" class="mt-3">
+                   <tr>
+                       <th>Best Price</th>
+                       <th>$<span id="best-price">1299</span></th>
+                   </tr>
+                   <tr>
+                    <th>Extra Memory Cost</th>
+                    <th>$<span id="update-memorycost">0</span></th>
+                </tr>
+                <tr>
+                    <th>Extra Storage Cost</th>
+                    <th>$<span id="update-storagecost">0</span></th>
+                </tr>
+                <tr>
+                    <th>Delivery Charge</th>
+                    <th>$<span id="update-deliverycost">0</span></th>
+                </tr>
+                <tr>
+                    <th>Total Price</th>
+                    <th>$<span id="total-cost">1299</span></th>
+                </tr>
+               </table>
+               <div class="mt-2">
+                <h5>Add Promo code</h5>
+                <input id="promo-code" type="text">
+                <button class="rouned btn-apply" id="promo-apply">Apply</button>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+    <hr class="w-75 m-auto">
+    <h2 class="text-center mt-2">Total:$<span id="total-costpromo">1299</span></h2>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+button:active{
+    background:rgb(18, 124, 18);
+    color: white;
+}
+button:focus{
+    background:rgb(18, 124, 18);
+    color: white;
+}
+button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+   
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.btn-apply{
+    color: white;
+    background-color: rgb(233, 92, 92);
+    border: 1px solid black;
+}
+.btn-apply:hover{
+    background-color: rgb(182, 38, 38);
+}
+.btn-apply:active{
+    background:rgb(233, 92, 92);
+    color: white;
+}
+.btn-apply:focus{
+    background:rgb(233, 92, 92);
+    color: white;
+}
